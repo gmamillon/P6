@@ -1,3 +1,4 @@
+//Validation du userId.
 module.exports = (req, res, next) => {
     const regexId = /^[a-z0-9]+$/;
     const sauce = { ...req.body };

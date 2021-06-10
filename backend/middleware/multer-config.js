@@ -1,3 +1,4 @@
+// Enregistrement des images de sauces + modification du nom du fichier pour le rendre unique.
 const multer = require('multer');
 const MIME_TYPES = {
     'image/jpg': 'jpg',

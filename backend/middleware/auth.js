@@ -1,3 +1,4 @@
+// Verification du token de l'utilisateur.
 const jwt = require('jsonwebtoken');
 
 module.exports = (req, res, next) => {
